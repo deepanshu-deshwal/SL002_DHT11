@@ -27,8 +27,7 @@ Usage Example: for DHT11
 #define DHTPIN 2
 SL002_DHT11 dht(DHTPIN);
 
-void setup() {
-  Serial.begin(9600);
+void setup() {  Serial.begin(9600);
 }
 
 void loop() {
